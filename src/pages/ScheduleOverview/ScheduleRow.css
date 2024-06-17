@@ -1,0 +1,11 @@
+.ScheduleRow .EventCell.hasContent {
+  background-color: lightgray;
+}
+
+.ScheduleRow .EventCell.inItenerary {
+  background-color: lightgreen;
+}
+
+.ScheduleRow .EventCell {
+  vertical-align: top;
+}

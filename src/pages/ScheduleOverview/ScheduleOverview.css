@@ -1,0 +1,10 @@
+.ScheduleTable .ScheduleHeader {
+  position: sticky;
+  top: 0;
+  background-color: black;
+  color: white;
+}
+
+details summary h2 {
+  display: inline-block;
+}

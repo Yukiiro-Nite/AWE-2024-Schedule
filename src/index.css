@@ -1,0 +1,18 @@
+body {
+  filter: invert(1);
+  background-color: black;
+  font-family: sans-serif;
+}
+
+.MapPage {
+  filter: invert(1);
+}
+
+a {
+  filter: invert(1);
+  color: #c0ffee;
+}
+
+a:visited {
+  color: #d600ff;
+}
