@@ -1,0 +1,12 @@
+.IteneraryPage details .IOContainer {
+  margin-left: 1rem;
+}
+
+.IteneraryPage details label {
+  display: block;
+  margin: 1rem 0;
+}
+
+.IteneraryPage details label span {
+  margin-right: 1rem;
+}
