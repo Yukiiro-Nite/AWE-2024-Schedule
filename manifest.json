@@ -5,16 +5,16 @@
   "background_color": "#000",
   "display": "minimal-ui",
   "orientation": "portrait",
-  "scope": "/",
-  "start_url": "/",
+  "scope": "/AWE-2024-Schedule/",
+  "start_url": "/AWE-2024-Schedule/",
   "icons": [
     {
-      "src": "images/icons-192.png",
+      "src": "/AWE-2024-Schedule/images/icons-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "images/icons-512.png",
+      "src": "/AWE-2024-Schedule/images/icons-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
