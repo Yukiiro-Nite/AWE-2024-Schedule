@@ -8,6 +8,8 @@ import './index.css'
 import { IndexPage } from './pages/IndexPage/IndexPage.tsx'
 import { pages } from './data/pages.tsx'
 
+console.info(`v0.0.1`)
+
 const router = createBrowserRouter([
     {
       path: "/",
