@@ -9,16 +9,20 @@ import { IndexPage } from './pages/IndexPage/IndexPage.tsx'
 import { pages } from './data/pages.tsx'
 
 const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <IndexPage />,
+    },
+    {
+      path: "/index.html",
+      element: <IndexPage />,
+    },
+    ...pages.map(page => ({ path: page.href, element: page.element }))
+  ],
   {
-    path: "/",
-    element: <IndexPage />,
-  },
-  {
-    path: "/index.html",
-    element: <IndexPage />,
-  },
-  ...pages.map(page => ({ path: page.href, element: page.element }))
-]);
+    basename: import.meta.env.BASE_URL
+  }
+);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
